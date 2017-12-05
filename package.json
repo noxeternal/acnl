@@ -6,7 +6,7 @@
   "author": "Michael Rice <rice.michaelt@gmail.com>",
   "license": "MIT",
   "scripts":{
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --inline --hot",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --inline --hot"
   },
   "dependencies": {
     "@uirouter/angularjs": "^1.0.11",
@@ -37,5 +37,4 @@
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   }
-
 }
