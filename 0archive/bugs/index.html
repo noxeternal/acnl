@@ -1,0 +1,88 @@
+<div class="bugs" ng-controller="bugCtl as bug">
+	<table>
+		<tr>
+			<td rowspan="2" class="bugImage right"><img src="img/searchicon.png" class="searchIcon"></td>
+			<td class="right"><input type="text" name="bugName" ng-model="bug.filterName" class="searchBox inputs"></td>
+			<td class="right">
+				<span class="buttonLabel">BELLS:</span>
+				<select ng-model="bug.filterBells.eq" class="inputs">
+					<option value="<=">&lt;=</option>
+					<option value="=">=</option>
+					<option value=">=">&gt;=</option>
+				</select>
+				<input type="text" name="bugValue" ng-model="bug.filterBells.val" size="5" class="inputs">
+			</td>
+		</tr>
+		<tr>
+			<td class="right">
+				<span class="buttonLabel">LOCATION:</span>
+				<select ng-model="bug.filterLocation" class="inputs">
+					<option value="">All</option>
+					<option ng-repeat="location in bug.locations" ng-value="location">{{location}}</option>
+				</select>
+ 			</td>
+			<td class="right"></td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<div class="dateblocks">
+					<div ng-repeat="m in bug.filterMonths track by $index" class="month center" ng-class="m?bug.seasonMap[$index]:'blank'" ng-model="m" ng-click="m=!m">{{bug.monthMap[$index]}}</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<div class="dateblocks">
+					<div ng-repeat="h in bug.filterHours track by $index" class="month center" ng-class="h?$index<12?'am':'pm':'blank'" ng-model="h" ng-click="h=!h">{{$index<13?$index:$index-12}}</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="center">
+				<button ng-click="bug.setCurrentTime()" class="month">CURRENT TIME</button>
+				<button ng-click="bug.resetTime()" class="month">RESET TIME</button>
+				<button ng-click="bug.refresh()" class="month">RESET ALL</button>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><hr></td>
+		</tr>
+		<tr>
+			<td colspan="3" class="center">
+				<span class="buttonLabel">SORT BY:</span>
+				<button ng-click="bug.setOrderBy('name')" class="month">NAME</button>
+				<button ng-click="bug.setOrderBy('value')" class="month">BELLS</button>
+				<button ng-click="bug.setOrderBy('location')" class="month">LOCATION</button>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><hr></td>
+		</tr>
+		<tr ng-repeat-start="f in bug.showBug() | orderBy: bug.orderBy : bug.orderReverse">
+			<td rowspan="2" class="bugImage"><img ng-src="{{f.image}}" class="bugImage rounded"></td>
+			<td><div class="b roundLeft" title="{{$index+1}}">{{f.name}}</div></td>
+			<td><div class="right number roundRight">{{f.value | number}}</div></td>
+		</tr>
+		<tr>
+			<td><div class="roundLeft">Location: {{f.location}}</div></td>
+			<td><div class="roundRight right">Shadow: {{f.shadow}}</div></td>
+		</tr>
+		<tr>
+			<td colspan="3" class="nopad">
+				<div class="dateblocks">
+					<div ng-repeat="m in f.months track by $index" class="month center" ng-class="m>0?bug.seasonMap[$index]:'blank'">{{bug.monthMap[$index]}}</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="nopad">
+				<div class="dateblocks">
+					<div ng-repeat="hour in bug.getHours(f.hours) track by $index" class="hour center" ng-class="hour>0?$index<12?'am':'pm':'blank'">{{$index<13?$index:$index-12}}</div>
+				</div>				
+			</td>
+		</tr>
+		<tr ng-repeat-end>
+			<td class="noborder center" colspan="4">&nbsp;</td>
+		</tr>
+	</table>
+</div>

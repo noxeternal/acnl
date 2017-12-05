@@ -1,0 +1,22 @@
+<html ng-app="AnimalCrossing">
+<head>
+	<title>Fish!</title>
+	<script src="js/angular.js"></script>
+	<script src="js/ngStorage.js"></script>
+	<script src="js/angular-ui-router.js"></script>
+	<script src="js/init.js"></script>
+	<script src="fish/controller.js"></script>
+	<script src="bugs/controller.js"></script>
+	<link rel="stylesheet" href="res/generic.css">
+	<link rel="stylesheet" href="res/fish.css">
+</head>
+<body>
+
+	<ul id="Menu">
+		<li><a ui-sref="fish">fish</a></li>
+		<li ng-hide="true"><a ui-sref="fish">deep sea</a></li>
+		<li><a ui-sref="bugs">bugs</a></li>
+	</ul>
+	<div ui-view></div>
+</body>
+</html>

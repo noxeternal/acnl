@@ -1,0 +1,500 @@
+[
+	{
+		"name": "Common Butterfly",
+		"image": "img/common_butterfly.png",
+		"value": 90,
+		"location": "Flying near flowers",
+		"hours": [{"start": 4,"end": 19}],
+		"months": [0,0,1,1,1,1,0,0,1,0,0,0]
+	},{
+		"name": "Yellow Butterfly",
+		"image": "img/yellow_butterfly.png",
+		"value": 90,
+		"location": "Flying near flowers",
+		"hours": [{"start": 6,"end": 16}],
+		"months": [0,0,1,1,1,1,0,0,1,0,0,0]
+	},{
+		"name": "Tiger Butterfly",
+		"image": "img/tiger_butterfly.png",
+		"value": 160,
+		"location": "Flying near flowers",
+		"hours": [{"start": 8,"end": 19}],
+		"months": [0,0,1,1,1,1,1,1,1,0,0,0]
+	},{
+		"name": "Peacock Butterfly",
+		"image": "img/peacock_butterfly.png",
+		"value": 220,
+		"location": "Flying near flowers",
+		"hours": [{"start": 4,"end": 19}],
+		"months": [0,0,1,1,1,1,1,1,1,0,0,0]
+	},{
+		"name": "Monarch Butterfly",
+		"image": "img/monarch_butterfly.png",
+		"value": 140,
+		"location": "Flying",
+		"hours": [{"start": 9,"end": 17}],
+		"months": [0,0,0,0,0,0,0,0,1,1,1,0]
+	},{
+		"name": "Emperor Butterfly",
+		"image": "img/emperor_butterfly.png",
+		"value": 2500,
+		"location": "Flying",
+		"hours": [{"start": 20,"end": 7}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Agrias Butterfly",
+		"image": "img/agrias_butterfly.png",
+		"value": 3000,
+		"location": "Flying near flowers",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Raja Brooke Butterfly",
+		"image": "img/raja_brooke_butterfly.png",
+		"value": 2500,
+		"location": "Flying",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,1,1,1,1,1,0,0,0]
+	},{
+		"name": "Birdwing Butterfly",
+		"image": "img/birdwing_butterfly.png",
+		"value": 4000,
+		"location": "Flying",
+		"hours": [{"start": 8,"end": 16}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Moth",
+		"image": "img/moth.png",
+		"value": 60,
+		"location": "Flying near lights",
+		"hours": [{"start": 19,"end": 4}],
+		"months": [0,0,0,0,1,1,1,1,1,0,0,0]
+	},{
+		"name": "Oak Silk Moth",
+		"image": "img/oak_silk_moth.png",
+		"value": 1200,
+		"location": "On trees",
+		"hours": [{"start": 19,"end": 4}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Honeybee",
+		"image": "img/honeybee.png",
+		"value": 100,
+		"location": "Flying near flowers",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,1,1,1,1,1,0,0,0,0,0]
+	},{
+		"name": "Bee",
+		"image": "img/bee.png",
+		"value": 2500,
+		"location": "In trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1]
+	},{
+		"name": "Long Locust",
+		"image": "img/long_locust.png",
+		"value": 200,
+		"location": "On the ground",
+		"hours": [{"start": 8,"end": 19}],
+		"months": [0,0,0,1,1,1,1,1,1,1,1,0]
+	},{
+		"name": "Migratory Locust",
+		"image": "img/migratory_locust.png",
+		"value": 600,
+		"location": "On the ground",
+		"hours": [{"start": 8,"end": 19}],
+		"months": [0,0,0,0,0,0,0,1,1,1,1,0]
+	},{
+		"name": "Rice Grasshopper",
+		"image": "img/rice_grasshopper.png",
+		"value": 400,
+		"location": "On the ground",
+		"hours": [{"start": 8,"end": 19}],
+		"months": [0,0,0,0,0,0,0,1,1,0,0,0]
+	},{
+		"name": "Mantis",
+		"image": "img/mantis.png",
+		"value": 430,
+		"location": "On flowers",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,1,1,1,1,1,1,1,1,0]
+	},{
+		"name": "Orchid Mantis",
+		"image": "img/orchid_mantis.png",
+		"value": 2400,
+		"location": "On white flowers",
+		"hours": [{"start": 8,"end": 19}],
+		"months": [0,0,0,1,1,1,1,1,1,1,1,0]
+	},{
+		"name": "Brown Cicada",
+		"image": "img/brown_cicada.png",
+		"value": 200,
+		"location": "On trees",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Robust Cicada",
+		"image": "img/robust_cicada.png",
+		"value": 300,
+		"location": "On trees",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Giant Cicada",
+		"image": "img/giant_cicada.png",
+		"value": 500,
+		"location": "On trees",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Walker Cicada",
+		"image": "img/walker_cicada.png",
+		"value": 400,
+		"location": "On trees",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,1,0,0,0]
+	},{
+		"name": "Evening Cicada",
+		"image": "img/evening_cicada.png",
+		"value": 550,
+		"location": "On trees",
+		"hours": [{"start": 16,"end": 19}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Cicada Shell",
+		"image": "img/cicada_shell.png",
+		"value": 100,
+		"location": "On trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Lantern Fly",
+		"image": "img/lantern_fly.png",
+		"value": 1800,
+		"location": "On trees",
+		"hours": [{"start": 16,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Red Dragonfly",
+		"image": "img/red_dragonfly.png",
+		"value": 80,
+		"location": "Flying",
+		"hours": [{"start": 8,"end": 19}],
+		"months": [0,0,0,0,0,0,0,0,1,1,1,0]
+	},{
+		"name": "Darner Dragonfly",
+		"image": "img/darner_dragonfly.png",
+		"value": 200,
+		"location": "Flying",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	},{
+		"name": "Banded Dragonfly",
+		"image": "img/banded_dragonfly.png",
+		"value": 4500,
+		"location": "Flying",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Petaltail Dragonfly",
+		"image": "img/petaltail_dragonfly.png",
+		"value": 8000,
+		"location": "Flying",
+		"hours": [{"start": 17,"end": 19}],
+		"months": [0,0,0,0,0,0,0,1,1,1,0,0]
+	},{
+		"name": "Ant",
+		"image": "img/ant.png",
+		"value": 80,
+		"location": "On rotten food",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1]
+	},{
+		"name": "Pondskater",
+		"image": "img/pondskater.png",
+		"value": 130,
+		"location": "River and ponds",
+		"hours": [{"start": 8,"end": 19}],
+		"months": [0,0,0,0,1,1,1,1,1,0,0,0]
+	},{
+		"name": "Diving Beetle",
+		"image": "img/diving_beetle.png",
+		"value": 800,
+		"location": "Rivers and ponds",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,1,1,1,1,1,0,0,0]
+	},{
+		"name": "Stinkbug",
+		"image": "img/stinkbug.png",
+		"value": 120,
+		"location": "On trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,1,1,1,1,1,1,1,0,0]
+	},{
+		"name": "Snail",
+		"image": "img/snail.png",
+		"value": 250,
+		"location": "On bushes (raining)",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,1,1,1,1,1,1,0,0,0]
+	},{
+		"name": "Cricket",
+		"image": "img/cricket.png",
+		"value": 160,
+		"location": "On the ground",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,0,0,0,1,1,1,0]
+	},{
+		"name": "Bell Cricket",
+		"image": "img/bell_cricket.png",
+		"value": 430,
+		"location": "On the ground",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,0,0,0,1,1,0,0]
+	},{
+		"name": "Grasshopper",
+		"image": "img/grasshopper.png",
+		"value": 160,
+		"location": "On the ground",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,1,0,0,0]
+	},{
+		"name": "Mole Cricket",
+		"image": "img/mole_cricket.png",
+		"value": 280,
+		"location": "Underground",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,0,0,0,0,0,1,1]
+	},{
+		"name": "Walking Leaf",
+		"image": "img/walking_leaf.png",
+		"value": 600,
+		"location": "On the ground",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,1,0,0,0]
+	},{
+		"name": "Walking Stick",
+		"image": "img/walking_stick.png",
+		"value": 600,
+		"location": "On trees",
+		"hours": [{"start": 4,"end": 19}],
+		"months": [0,0,0,0,0,0,1,1,1,1,1,0]
+	},{
+		"name": "Bagworm",
+		"image": "img/bagworm.png",
+		"value": 300,
+		"location": "In trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,0,0,0,0,0,0,0,1,1,1]
+	},{
+		"name": "Ladybug",
+		"image": "img/ladybug.png",
+		"value": 200,
+		"location": "On flowers",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,1,1,1,1,0,0,0,1,0,0]
+	},{
+		"name": "Violin Beetle",
+		"image": "img/violin_beetle.png",
+		"value": 260,
+		"location": "Tree stumps",
+		"hours": [{"start": 4,"end": 19}],
+		"months": [0,0,0,0,0,1,0,0,1,1,1,0]
+	},{
+		"name": "Longhorn Beetle",
+		"image": "img/longhorn_beetle.png",
+		"value": 260,
+		"location": "Tree stumps",
+		"hours": [{"start": 23,"end": 19}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Tiger Beetle",
+		"image": "img/tiger_beetle.png",
+		"value": 1500,
+		"location": "On the ground",
+		"hours": [{"start": 8,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,1,0,0]
+	},{
+		"name": "Dung Beetle",
+		"image": "img/dung_beetle.png",
+		"value": 800,
+		"location": "Snow balls",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [1,1,0,0,0,0,0,0,0,0,0,1]
+	},{
+		"name": "Wharf Roach",
+		"image": "img/wharf_roach.png",
+		"value": 200,
+		"location": "On the beach",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1]
+	},{
+		"name": "Hermit Crab",
+		"image": "img/hermit_crab.png",
+		"value": 1000,
+		"location": "On the beach",
+		"hours": [{"start": 19,"end": 8}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1]
+	},{
+		"name": "Firefly",
+		"image": "img/firefly.png",
+		"value": 300,
+		"location": "Flying near the river",
+		"hours": [{"start": 19,"end": 4}],
+		"months": [0,0,0,0,0,1,0,0,0,0,0,0]
+	},{
+		"name": "Fruit Beetle",
+		"image": "img/fruit_beetle.png",
+		"value": 100,
+		"location": "On trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,1,1,1,0,0,0]
+	},{
+		"name": "Scarab Beetle",
+		"image": "img/scarab_beetle.png",
+		"value": 6000,
+		"location": "On trees",
+		"hours": [{"start": 23,"end": 8}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Jewel Beetle",
+		"image": "img/jewel_beetle.png",
+		"value": 2400,
+		"location": "On trees",
+		"hours": [{"start": 8,"end": 17}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Miyama Stag",
+		"image": "img/miyama_stag.png",
+		"value": 1000,
+		"location": "On trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Saw Stag",
+		"image": "img/saw_stag.png",
+		"value": 2000,
+		"location": "On trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Giant Stag",
+		"image": "img/giant_stag.png",
+		"value": 10000,
+		"location": "On trees",
+		"hours": [{"start": 23,"end": 8}],
+		"months": [0,0,0,0,0,0,1,1,0,0,0,0]
+	},{
+		"name": "Rainbow Stag",
+		"image": "img/rainbow_stag.png",
+		"value": 10000,
+		"location": "On trees",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Cyclommatus Stag",
+		"image": "img/cyclommatus_stag.png",
+		"value": 8000,
+		"location": "On palm trees",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	},{
+		"name": "Golden Stag",
+		"image": "img/golden_stag.png",
+		"value": 12000,
+		"location": "On palm trees",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	},{
+		"name": "Horned Dynastid",
+		"image": "img/horned_dynastid.png",
+		"value": 1350,
+		"location": "On trees",
+		"hours": [{"start": 19,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	},{
+		"name": "Horned Atlas",
+		"image": "img/horned_atlas.png",
+		"value": 8000,
+		"location": "On palm trees",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	},{
+		"name": "Horned Elephant",
+		"image": "img/horned_elephant.png",
+		"value": 8000,
+		"location": "On palm trees",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	},{
+		"name": "Horned Hercules",
+		"image": "img/horned_hercules.png",
+		"value": 12000,
+		"location": "On palm trees",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	},{
+		"name": "Goliath Beetle",
+		"image": "img/goliath_beetle.png",
+		"value": 6000,
+		"location": "On palm trees",
+		"hours": [{"start": 17,"end": 8}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Flea",
+		"image": "img/flea.png",
+		"value": 70,
+		"location": "On villagers",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,1,1,0]
+	},{
+		"name": "Pill Bug",
+		"image": "img/pill_bug.png",
+		"value": 250,
+		"location": "Under rocks",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1]
+	},{
+		"name": "Mosquito",
+		"image": "img/mosquito.png",
+		"value": 130,
+		"location": "Flying",
+		"hours": [{"start": 17,"end": 4}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0]
+	},{
+		"name": "Fly",
+		"image": "img/fly.png",
+		"value": 60,
+		"location": "Flying near trash",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1]
+	},{
+		"name": "House Centipede",
+		"image": "img/house_centipede.png",
+		"value": 250,
+		"location": "Under rocks",
+		"hours": [{"start": 19,"end": 8}],
+		"months": [0,0,0,0,0,0,0,1,1,1,0,0]
+	},{
+		"name": "Centipede",
+		"image": "img/centipede.png",
+		"value": 300,
+		"location": "Under rocks",
+		"hours": [{"start": 16,"end": 23}],
+		"months": [1,1,0,0,0,1,1,1,1,1,1,1]
+	},{
+		"name": "Spider",
+		"image": "img/spider.png",
+		"value": 300,
+		"location": "In trees",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,1,0,0]
+	},{
+		"name": "Tarantula",
+		"image": "img/tarantula.png",
+		"value": 8000,
+		"location": "On the ground",
+		"hours": [{"start": 19,"end": 16}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0]
+	}
+]

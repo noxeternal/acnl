@@ -1,0 +1,99 @@
+.bugs table,
+.fish table{
+	border-collapse: collapse;
+}
+.bugs td,
+.fish td{
+	padding: 0;
+}
+.searchIcon{
+	width: 50px;
+	filter: invert(100%);
+	transform: scaleX(-1);
+}
+.searchBox{
+	width: 145px;
+}
+.fishImage{
+	width: 50px;
+}
+.dateblocks{
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 1px 0;
+}
+.buttonLabel{
+	font-size: 11px;
+	font-weight: bold;
+}
+.inputs{
+	border: 1px solid black;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 1px 3px;
+}
+.month,
+.hour{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 3px;
+	flex: 1;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 1px 1px white;
+	padding: 0 3px;
+	cursor: default;
+}
+.winter{
+	background: linear-gradient(145deg, white 15%,#0065F4 45%);
+	color: white;
+	text-shadow: 1px 1px black;
+}
+.spring{
+	background: linear-gradient(145deg, white 15%,#11BF11 45%);
+}
+.summer{
+	background: linear-gradient(145deg, white 15%,#FFFF00 45%);
+}
+.autumn{
+	background: linear-gradient(145deg, white 15%,#FFA500 45%);
+}
+
+.am{
+	background: linear-gradient(180deg, lightblue 75%,yellow 25%);
+	text-shadow: 1px 1px white;
+}
+.pm{
+	/* background: linear-gradient(180deg, blue 5%, orange 80%,lightblue 15%); */
+	background: linear-gradient(to bottom, #0000ff 0%,#a894d3 24%,#a894d3 75%,#a894d3 75%,#ffa500 93%);
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.null{
+	background: linear-gradient(145deg, white 15%,red 45%);
+}
+.blank{
+	background: white;
+	color: white;
+}
+
+.roundLeft{
+	border: 1px solid black;
+	border-right: none;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+.roundRight{
+	border: 1px solid black;
+	border-left: none;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	padding-right: 5px;
+	padding-top: 2px;
+}

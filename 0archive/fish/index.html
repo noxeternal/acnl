@@ -1,0 +1,95 @@
+<div class="fish" ng-controller="fishCtl as fish">
+	<table>
+		<tr>
+			<td rowspan="2" class="fishImage right"><img src="img/searchicon.png" class="searchIcon"></td>
+			<td class="right"><input type="text" name="fishName" ng-model="fish.filterName" class="searchBox inputs"></td>
+			<td class="right">
+				<span class="buttonLabel">BELLS:</span>
+				<select ng-model="fish.filterBells.eq" class="inputs">
+					<option value="<=">&lt;=</option>
+					<option value="=">=</option>
+					<option value=">=">&gt;=</option>
+				</select>
+				<input type="text" name="fishValue" ng-model="fish.filterBells.val" size="5" class="inputs">
+			</td>
+		</tr>
+		<tr>
+			<td class="right">
+				<span class="buttonLabel">LOCATION:</span>
+				<select ng-model="fish.filterLocation" class="inputs">
+					<option value="">All</option>
+					<option ng-repeat="location in fish.locations" ng-value="location">{{location}}</option>
+				</select>
+ 			</td>
+			<td class="right">
+				<span class="buttonLabel">SHADOW:</span>
+				<select ng-model="fish.filterShadow" class="inputs">
+					<option value="">All</option>
+					<option ng-repeat="shadow in fish.shadows" ng-value="shadow">{{shadow}}</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<div class="dateblocks">
+					<div ng-repeat="m in fish.filterMonths track by $index" class="month center" ng-class="m?fish.seasonMap[$index]:'blank'" ng-model="m" ng-click="m=!m">{{fish.monthMap[$index]}}</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<div class="dateblocks">
+					<div ng-repeat="h in fish.filterHours track by $index" class="month center" ng-class="h?$index<12?'am':'pm':'blank'" ng-model="h" ng-click="h=!h">{{$index<13?$index:$index-12}}</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="center">
+				<button ng-click="fish.setCurrentTime()" class="month">CURRENT TIME</button>
+				<button ng-click="fish.resetTime()" class="month">RESET TIME</button>
+				<button ng-click="fish.refresh()" class="month">RESET ALL</button>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><hr></td>
+		</tr>
+		<tr>
+			<td colspan="3" class="center">
+				<span class="buttonLabel">SORT BY:</span>
+				<button ng-click="fish.setOrderBy('name')" class="month">NAME</button>
+				<button ng-click="fish.setOrderBy('value')" class="month">BELLS</button>
+				<button ng-click="fish.setOrderBy('location')" class="month">LOCATION</button>
+				<button ng-click="fish.setOrderBy('shadow')" class="month">SHADOW</button>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><hr></td>
+		</tr>
+		<tr ng-repeat-start="f in fish.showFish() | orderBy: fish.orderBy : fish.orderReverse">
+			<td rowspan="2" class="fishImage"><img ng-src="{{f.image}}" class="fishImage rounded"></td>
+			<td><div class="b roundLeft" title="{{$index+1}}">{{f.name}}</div></td>
+			<td><div class="right number roundRight">{{f.value | number}}</div></td>
+		</tr>
+		<tr>
+			<td><div class="roundLeft">Location: {{f.location}}</div></td>
+			<td><div class="roundRight right">Shadow: {{f.shadow}}</div></td>
+		</tr>
+		<tr>
+			<td colspan="3" class="nopad">
+				<div class="dateblocks">
+					<div ng-repeat="m in f.months track by $index" class="month center" ng-class="m>0?fish.seasonMap[$index]:'blank'">{{fish.monthMap[$index]}}</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="nopad">
+				<div class="dateblocks">
+					<div ng-repeat="hour in fish.getHours(f.hours) track by $index" class="hour center" ng-class="hour>0?$index<12?'am':'pm':'blank'">{{$index<13?$index:$index-12}}</div>
+				</div>				
+			</td>
+		</tr>
+		<tr ng-repeat-end>
+			<td class="noborder center" colspan="4">&nbsp;</td>
+		</tr>
+	</table>
+</div>
