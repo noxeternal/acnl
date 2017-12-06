@@ -1,0 +1,722 @@
+[
+	{
+		"name": "Bitterling",
+		"image": "img/bitterling.png",
+		"value": 900,
+		"location": "River",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,0,0,0,0,0,0,0,0,1,1],
+		"notes": []
+	},
+	{
+		"name": "Pale Chub",
+		"image": "img/pale_chub.png",
+		"value": 200,
+		"location": "River",
+		"shadow": "Tiny",
+		"hours": [{"start": 9,"end": 16}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Crucian Carp",
+		"image": "img/crucian_carp.png",
+		"value": 120,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Dace",
+		"image": "img/dace.png",
+		"value": 200,
+		"location": "River",
+		"shadow": "Medium",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Barbel Steed",
+		"image": "img/barbel_steed.png",
+		"value": 200,
+		"location": "River",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Carp",
+		"image": "img/carp.png",
+		"value": 300,
+		"location": "River",
+		"shadow": "Large",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Koi",
+		"image": "img/koi.png",
+		"value": 4000,
+		"location": "River",
+		"shadow": "Large",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Goldfish",
+		"image": "img/goldfish.png",
+		"value": 1300,
+		"location": "River",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Popeyed Goldfish",
+		"image": "img/popeyed_goldfish.png",
+		"value": 1300,
+		"location": "River",
+		"shadow": "Tiny",
+		"hours": [{"start": 9,"end": 16}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Killifish",
+		"image": "img/killifish.png",
+		"value": 300,
+		"location": "Pond",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,1,1,1,1,1,0,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Crawfish",
+		"image": "img/crawfish.png",
+		"value": 200,
+		"location": "Pond",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,1,1,1,1,1,1,0,0,0],
+		"notes": ["Only until Sept 15th"]
+	},
+	{
+		"name": "Soft-Shelled Turtle",
+		"image": "img/soft-shelled_turtle.png",
+		"value": 3750,
+		"location": "River",
+		"shadow": "Medium",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,0,0,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Tadpole",
+		"image": "img/tadpole.png",
+		"value": 100,
+		"location": "Pond",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,0,0,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Frog",
+		"image": "img/frog.png",
+		"value": 120,
+		"location": "Pond",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,1,1,1,1,0,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Freshwater Goby",
+		"image": "img/freshwater_goby.png",
+		"value": 300,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Loach",
+		"image": "img/loach.png",
+		"value": 300,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,0,0,0,0,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Catfish",
+		"image": "img/catfish.png",
+		"value": 800,
+		"location": "Lake",
+		"shadow": "Large",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,1,1,1,1,1,1,0,0],
+		"notes": []
+	},
+	{
+		"name": "Eel",
+		"image": "img/eel.png",
+		"value": 2000,
+		"location": "River",
+		"shadow": "Narrow",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": ["Only until Sept 15th"]
+	},
+	{
+		"name": "Giant Snakehead",
+		"image": "img/giant_snakehead.png",
+		"value": 5500,
+		"location": "Lake",
+		"shadow": "Very Large",
+		"hours": [{"start": 9,"end": 16}],
+		"months": [0,0,0,0,0,1,1,1,0,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Bluegill",
+		"image": "img/bluegill.png",
+		"value": 120,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 9,"end": 16}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Yellow Perch",
+		"image": "img/yellow_perch.png",
+		"value": 240,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,0,0,0,0,0,0,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Black Bass",
+		"image": "img/black_bass.png",
+		"value": 300,
+		"location": "River",
+		"shadow": "Large",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Pike",
+		"image": "img/pike.png",
+		"value": 1800,
+		"location": "River",
+		"shadow": "Very Large",
+		"hours": [{"start": 4,"end": 21}],
+		"months": [0,0,0,0,0,0,0,0,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Pond Smelt",
+		"image": "img/pond_smelt.png",
+		"value": 300,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,0,0,0,0,0,0,0,0,0,1],
+		"notes": []
+	},
+	{
+		"name": "Sweetfish",
+		"image": "img/sweetfish.png",
+		"value": 900,
+		"location": "River",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,1,1,1,1,0,0],
+		"notes": []
+	},
+	{
+		"name": "Cherry Salmon",
+		"image": "img/cherry_salmon.png",
+		"value": 1000,
+		"location": "River",
+		"shadow": "Medium",
+		"hours": [{"start": 4,"end": 9},{"start": 16,"end": 21}],
+		"months": [0,0,1,1,1,1,0,0,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Char",
+		"image": "img/char.png",
+		"value": 3800,
+		"location": "Waterfall",
+		"shadow": "Medium",
+		"hours": [{"start": 4,"end": 9},{"start": 16,"end": 21}],
+		"months": [0,0,1,1,1,1,0,0,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Rainbow Trout",
+		"image": "img/rainbow_trout.png",
+		"value": 800,
+		"location": "River",
+		"shadow": "Large",
+		"hours": [{"start": 4,"end": 9},{"start": 16,"end": 21}],
+		"months": [0,0,1,1,1,1,0,0,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Stringfish",
+		"image": "img/stringfish.png",
+		"value": 15000,
+		"location": "River",
+		"shadow": "Huge",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [1,1,0,0,0,0,0,0,0,0,0,1],
+		"notes": []
+	},
+	{
+		"name": "Salmon",
+		"image": "img/salmon.png",
+		"value": 700,
+		"location": "River",
+		"shadow": "Large",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,0,0,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "King Salmon",
+		"image": "img/king_salmon.png",
+		"value": 1800,
+		"location": "Waterfall",
+		"shadow": "Huge",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,0,0,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Mitten Crab",
+		"image": "img/mitten_crab.png",
+		"value": 2000,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,0,0,0,1,1,1,0],
+		"notes": ["Only after Sept 15th"]
+	},
+	{
+		"name": "Guppy",
+		"image": "img/guppy.png",
+		"value": 1300,
+		"location": "River",
+		"shadow": "Tiny",
+		"hours": [{"start": 9,"end": 16}],
+		"months": [0,0,0,1,1,1,1,1,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Nibble Fish",
+		"image": "img/nibble_fish.png",
+		"value": 1500,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 9,"end": 16}],
+		"months": [0,0,0,0,1,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Angelfish",
+		"image": "img/angelfish.png",
+		"value": 3000,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,1,1,1,1,1,1,0,0],
+		"notes": []
+	},
+	{
+		"name": "Neon Tetra",
+		"image": "img/neon_tetra.png",
+		"value": 500,
+		"location": "River",
+		"shadow": "Tiny",
+		"hours": [{"start": 9,"end": 16}],
+		"months": [0,0,0,1,1,1,1,1,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Piranha",
+		"image": "img/piranha.png",
+		"value": 2500,
+		"location": "River",
+		"shadow": "Small",
+		"hours": [{"start": 9,"end": 16},{"start": 21,"end": 4}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": ["Only until Sept 15th"]
+	},
+	{
+		"name": "Arowana",
+		"image": "img/arowana.png",
+		"value": 10000,
+		"location": "River",
+		"shadow": "Large",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": ["Only until Sept 15th"]
+	},
+	{
+		"name": "Dorado",
+		"image": "img/dorado.png",
+		"value": 15000,
+		"location": "River",
+		"shadow": "Very Large",
+		"hours": [{"start": 4,"end": 21}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Gar",
+		"image": "img/gar.png",
+		"value": 6000,
+		"location": "Lake",
+		"shadow": "Huge",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,0,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Arapaima",
+		"image": "img/arapaima.png",
+		"value": 10000,
+		"location": "River",
+		"shadow": "Huge",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,0,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Saddled Bichir",
+		"image": "img/saddled_bichir.png",
+		"value": 4000,
+		"location": "River",
+		"shadow": "Large",
+		"hours": [{"start": 16,"end": 4}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Sea Butterfly",
+		"image": "img/sea_butterfly.png",
+		"value": 1000,
+		"location": "Ocean",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,0,0,0,0,0,0,0,0,0,1],
+		"notes": []
+	},
+	{
+		"name": "Seahorse",
+		"image": "img/sea_horse.png",
+		"value": 1100,
+		"location": "Ocean/Island",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,1,1,1,1,1,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Clownfish",
+		"image": "img/clownfish.png",
+		"value": 650,
+		"location": "Ocean/Island",
+		"shadow": "Tiny",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Surgeonfish",
+		"image": "img/surgeonfish.png",
+		"value": 1000,
+		"location": "Ocean/Island",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,1,1,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Butterfly Fish",
+		"image": "img/butterflyfish.png",
+		"value": 1000,
+		"location": "Ocean/Island",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Napoleonfish",
+		"image": "img/napoleonfish.png",
+		"value": 10000,
+		"location": "Ocean/Island",
+		"shadow": "Huge",
+		"hours": [{"start": 4,"end": 21}],
+		"months": [0,0,0,0,0,0,1,1,1,1,0,0],
+		"notes": []
+	},
+	{
+		"name": "Zebra Turkeyfish",
+		"image": "img/zebra_turkeyfish.png",
+		"value": 400,
+		"location": "Ocean/Island",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Blowfish",
+		"image": "img/blowfish.png",
+		"value": 125,
+		"location": "Ocean/Island",
+		"shadow": "Medium",
+		"hours": [{"start": 21,"end": 4}],
+		"months": [1,1,0,0,0,0,0,0,0,0,1,1],
+		"notes": []
+	},
+	{
+		"name": "Puffer Fish",
+		"image": "img/puffer_fish.png",
+		"value": 240,
+		"location": "Ocean/Island",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,0,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Horse Mackerel",
+		"image": "img/horse_mackerel.png",
+		"value": 150,
+		"location": "Ocean/Island",
+		"shadow": "Small",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Barred Knifejaw",
+		"image": "img/barred_knifejaw.png",
+		"value": 5000,
+		"location": "Ocean/Island",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Sea Bass",
+		"image": "img/sea_bass.png",
+		"value": 200,
+		"location": "Ocean/Island",
+		"shadow": "Very Large",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Red Snapper",
+		"image": "img/red_snapper.png",
+		"value": 3000,
+		"location": "Ocean/Island",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Dab",
+		"image": "img/dab.png",
+		"value": 300,
+		"location": "Ocean",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,0,0,0,0,0,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Olive Flounder",
+		"image": "img/olive_flounder.png",
+		"value": 800,
+		"location": "Ocean/Island",
+		"shadow": "Large",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Squid",
+		"image": "img/squid.png",
+		"value": 400,
+		"location": "Ocean/Island",
+		"shadow": "Medium",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,0,0,0,1],
+		"notes": []
+	},
+	{
+		"name": "Moray Eel",
+		"image": "img/moray_eel.png",
+		"value": 2000,
+		"location": "Ocean/Island",
+		"shadow": "Very Large",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,1,1,1,1,1,1,1,1,0,0],
+		"notes": []
+	},
+	{
+		"name": "Ribbon Eel",
+		"image": "img/ribbon_eel.png",
+		"value": 600,
+		"location": "Island",
+		"shadow": "Narrow",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Football Fish",
+		"image": "img/football_fish.png",
+		"value": 2500,
+		"location": "Ocean",
+		"shadow": "Large",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [1,1,1,0,0,0,0,0,0,0,1,1],
+		"notes": []
+	},
+	{
+		"name": "Tuna",
+		"image": "img/tuna.png",
+		"value": 7000,
+		"location": "Ocean",
+		"shadow": "Huge",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,0,0,0,0,0,0,0,1,1],
+		"notes": []
+	},
+	{
+		"name": "Blue Marlin",
+		"image": "img/blue_marlin.png",
+		"value": 10000,
+		"location": "Ocean/Island",
+		"shadow": "Huge",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [0,0,0,0,0,0,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Giant Trevally",
+		"image": "img/giant_trevally.png",
+		"value": 4500,
+		"location": "Island",
+		"shadow": "Very Large",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Ray",
+		"image": "img/ray.png",
+		"value": 3000,
+		"location": "Ocean/Island",
+		"shadow": "Very Large",
+		"hours": [{"start": 4,"end": 21}],
+		"months": [0,0,0,0,0,0,0,1,1,1,1,0],
+		"notes": []
+	},
+	{
+		"name": "Ocean Sunfish",
+		"image": "img/ocean_sunfish.png",
+		"value": 4000,
+		"location": "Ocean/Island",
+		"shadow": "Huge w/fin",
+		"hours": [{"start": 4,"end": 21}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Hammerhead Shark",
+		"image": "img/hammerhead_shark.png",
+		"value": 8000,
+		"location": "Ocean/Island",
+		"shadow": "Huge w/fin",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Shark",
+		"image": "img/shark.png",
+		"value": 15000,
+		"location": "Ocean/Island",
+		"shadow": "Huge w/fin",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Saw Shark",
+		"image": "img/saw_shark.png",
+		"value": 12000,
+		"location": "Ocean/Island",
+		"shadow": "Huge w/fin",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [0,0,0,0,0,1,1,1,1,0,0,0],
+		"notes": []
+	},
+	{
+		"name": "Whale Shark",
+		"image": "img/whale_shark.png",
+		"value": 13000,
+		"location": "Island",
+		"shadow": "Huge w/fin",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": []
+	},
+	{
+		"name": "Oarfish",
+		"image": "img/oarfish.png",
+		"value": 9000,
+		"location": "Ocean",
+		"shadow": "Huge",
+		"hours": [{"start": 0,"end": 23}],
+		"months": [1,1,1,1,1,0,0,0,0,0,0,1],
+		"notes": []
+	},
+	{
+		"name": "Coelacanth",
+		"image": "img/coelacanth.png",
+		"value": 15000,
+		"location": "Ocean",
+		"shadow": "Huge",
+		"hours": [{"start": 16,"end": 9}],
+		"months": [1,1,1,1,1,1,1,1,1,1,1,1],
+		"notes": ["Only during rain or snow"]
+	}
+]

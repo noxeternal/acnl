@@ -1,0 +1,582 @@
+[
+{
+	"name": "Seaweed",
+	"image": "http://vignette3.wikia.nocookie.net/animalcrossing/images/d/d9/Seaweed_HHD_Icon.png/revision/latest?cb=20161105204252",
+	"value": "200",
+	"shadow": "Large",
+	"hours": "All day",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"0",
+		"0",
+		"0",
+		"1",
+		"1"
+	]
+}{
+	"name": "Sea grapes",
+	"image": "http://vignette2.wikia.nocookie.net/animalcrossing/images/3/3d/Sea_Grapes_HHD_Icon.png/revision/latest?cb=20161105204232",
+	"value": "600",
+	"shadow": "Small",
+	"hours": "All day",
+	"months": [
+		"0",
+		"0",
+		"0",
+		"0",
+		"0",
+		"1",
+		"1",
+		"1",
+		"1",
+		"0",
+		"0",
+		"0"
+	]
+}{
+	"name": "Sea urchin",
+	"image": "http://vignette4.wikia.nocookie.net/animalcrossing/images/2/21/Sea_Urchin_HHD_Icon.png/revision/latest?cb=20161105204243",
+	"value": "800",
+	"shadow": "Small",
+	"hours": "All day",
+	"months": [
+		"0",
+		"0",
+		"0",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"0",
+		"0",
+		"0"
+	]
+}{
+	"name": "Acorn barnacle",
+	"image": "http://vignette4.wikia.nocookie.net/animalcrossing/images/4/41/Acorn_Barnacle_HHD_Icon.png/revision/latest?cb=20161105191707",
+	"value": "200",
+	"shadow": "All day",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		""
+	]
+}{
+	"name": "http://vignette2.wikia.nocookie.net/animalcrossing/images/a/a8/Oyster_HHD_Icon.png/revision/latest?cb=20161105202826",
+	"image": "400",
+	"value": "Small",
+	"shadow": "All day",
+	"hours": "1",
+	"months": [
+		"1",
+		"0",
+		"0",
+		"0",
+		"0",
+		"0",
+		"0",
+		"1",
+		"1",
+		"1",
+		"1",
+		""
+	]
+}{
+	"name": "http://vignette3.wikia.nocookie.net/animalcrossing/images/7/7b/Turban_Shell_HHD_Icon.png/revision/latest?cb=20161105205359",
+	"image": "300",
+	"value": "Small",
+	"shadow": "4 PM - 9 AM",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"0",
+		"0",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		""
+	]
+}{
+	"name": "http://vignette4.wikia.nocookie.net/animalcrossing/images/e/e4/Abalone_HHD_Icon.png/revision/latest?cb=20161105191652",
+	"image": "400",
+	"value": "4 PM - 9 AM",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Ear shell"
+	]
+}{
+	"name": "300",
+	"image": "4 PM - 9 AM",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Clam",
+		"http://vignette3.wikia.nocookie.net/animalcrossing/images/9/9b/Clam_HHD_Icon.png/revision/latest?cb=20161105194354"
+	]
+}{
+	"name": "Small",
+	"image": "All day",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"0",
+		"0",
+		"0",
+		"0",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Pearl oyster",
+		"http://vignette1.wikia.nocookie.net/animalcrossing/images/3/35/Pearl_Oyster_HHD_Icon.png/revision/latest?cb=20161105203017"
+	]
+}{
+	"name": "Small",
+	"image": "All day",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Scallop",
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/5/51/Scallop_HHD_Icon.png/revision/latest?cb=20161105204130"
+	]
+}{
+	"name": "All day",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Sea anemone",
+		"http://vignette4.wikia.nocookie.net/animalcrossing/images/b/b1/Sea_Anemone_HHD_Icon.png/revision/latest?cb=20161105204218",
+		"100"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Sea star",
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/d/d3/Sea_Star_HHD_Icon.png/revision/latest?cb=20161105204241",
+		"100",
+		"All day"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Sea cucumber",
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/0/01/Sea_Cucumber_HHD_Icon.png/revision/latest?cb=20161105204227",
+		"150",
+		"Medium",
+		"All day"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "0",
+	"hours": "0",
+	"months": [
+		"0",
+		"0",
+		"0",
+		"0",
+		"1",
+		"1",
+		"",
+		"Sea slug",
+		"http://vignette4.wikia.nocookie.net/animalcrossing/images/9/98/Sea_Slug_HHD_Icon.png/revision/latest?cb=20161105204238",
+		"200",
+		"All day",
+		"1"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"",
+		"Flatworm",
+		"http://vignette4.wikia.nocookie.net/animalcrossing/images/e/ea/Flatworm_HHD_Icon.png/revision/latest?cb=20161105195346",
+		"200",
+		"4 PM - 9 AM",
+		"0",
+		"0"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"0",
+		"0",
+		"0",
+		"",
+		"Mantis shrimp",
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/3/33/Mantis_Shrimp_HHD_Icon.png/revision/latest?cb=20161105201802",
+		"1,250",
+		"4 PM - 9 AM",
+		"1",
+		"1",
+		"1"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"",
+		"Sweet shrimp",
+		"http://vignette1.wikia.nocookie.net/animalcrossing/images/9/9d/Sweet_Shrimp_HHD_Icon.png/revision/latest?cb=20161105205101",
+		"650",
+		"Small",
+		"4 PM - 9 AM",
+		"1",
+		"1",
+		"0"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "0",
+	"shadow": "0",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"1",
+		"",
+		"Tiger prawn",
+		"http://vignette1.wikia.nocookie.net/animalcrossing/images/9/9c/Tiger_Prawn_HHD_Icon.png/revision/latest?cb=20161105205250",
+		"1,600",
+		"4 PM - 9 AM",
+		"0",
+		"0",
+		"0",
+		"0"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "0",
+	"months": [
+		"0",
+		"0",
+		"",
+		"Spiny lobster",
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/4/4a/Spiny_Lobster_HHD_Icon.png/revision/latest?cb=20161105204811",
+		"3,000",
+		"Large",
+		"9 PM - 4 AM",
+		"0",
+		"0",
+		"0",
+		"0"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "0",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"1",
+		"",
+		"Lobster",
+		"http://vignette3.wikia.nocookie.net/animalcrossing/images/0/09/Lobster_HHD_Icon.png/revision/latest?cb=20161105201529",
+		"2,500",
+		"All day",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"1",
+		"",
+		"Snow crab",
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/b/bf/Snow_Crab_HHD_Icon.png/revision/latest?cb=20161105204620",
+		"4,000",
+		"Large",
+		"All day",
+		"1",
+		"1",
+		"1",
+		"1",
+		"0"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "0",
+	"shadow": "0",
+	"hours": "1",
+	"months": [
+		"1",
+		"",
+		"Horsehair crab",
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/6/63/Horsehair_Crab_HHD_Icon.png/revision/latest?cb=20161105200829",
+		"4,000",
+		"Medium",
+		"All day",
+		"1",
+		"1",
+		"1",
+		"1",
+		"0"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "0",
+	"shadow": "0",
+	"hours": "1",
+	"months": [
+		"1",
+		"",
+		"Red king crab",
+		"http://vignette4.wikia.nocookie.net/animalcrossing/images/1/10/Red_King_Crab_HHD_Icon.png/revision/latest?cb=20161105203638",
+		"6,000",
+		"Large",
+		"All day",
+		"1",
+		"1",
+		"1",
+		"0",
+		"0"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "0",
+	"shadow": "0",
+	"hours": "1",
+	"months": [
+		"1",
+		"",
+		"Spider crab",
+		"http://vignette3.wikia.nocookie.net/animalcrossing/images/b/b6/Spider_Crab_HHD_Icon.png/revision/latest?cb=20161105204756",
+		"10,000",
+		"Huge",
+		"All day",
+		"0",
+		"0",
+		"1",
+		"1",
+		"0"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "0",
+	"shadow": "0",
+	"hours": "0",
+	"months": [
+		"0",
+		"",
+		"Octopus",
+		"http://vignette3.wikia.nocookie.net/animalcrossing/images/3/35/Octopus_HHD_Icon.png/revision/latest?cb=20161105202711",
+		"1,000",
+		"All day",
+		"1",
+		"0",
+		"1",
+		"1",
+		"1",
+		"1"
+	]
+}{
+	"name": "0",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "1",
+	"months": [
+		"",
+		"Spotted garden eel",
+		"http://vignette4.wikia.nocookie.net/animalcrossing/images/c/c5/Spotted_Garden_Eel_HHD_Icon.png/revision/latest?cb=20161105204849",
+		"600",
+		"All day",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "1",
+	"hours": "",
+	"months": [
+		"Chambered nautilus",
+		"http://vignette4.wikia.nocookie.net/animalcrossing/images/5/5f/Chambered_Nautilus_HHD_Icon.png/revision/latest?cb=20161105194337",
+		"900",
+		"All day",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1"
+	]
+}{
+	"name": "1",
+	"image": "1",
+	"value": "1",
+	"shadow": "",
+	"hours": "Horseshoe crab",
+	"months": [
+		"http://vignette3.wikia.nocookie.net/animalcrossing/images/3/37/Horseshoe_Crab_HHD_Icon.png/revision/latest?cb=20161105200831",
+		"1,500",
+		"Medium",
+		"9 PM - 4 AM",
+		"0",
+		"0",
+		"0",
+		"0",
+		"0",
+		"0",
+		"1",
+		"1"
+	]
+}{
+	"name": "0",
+	"image": "0",
+	"value": "0",
+	"shadow": "",
+	"hours": "Giant isopod",
+	"months": [
+		"http://vignette2.wikia.nocookie.net/animalcrossing/images/b/b3/Giant_Isopod_HHD_Icon.png/revision/latest?cb=20161105195625",
+		"9,000",
+		"All day",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1",
+		"1"
+	]
+}

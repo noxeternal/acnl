@@ -3,7 +3,7 @@ var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './public/main.js',
+  entry: './public/js/init.js',
   output: {
     path: path.resolve(__dirname, './dist/'),
     publicPath: '/',
@@ -12,33 +12,17 @@ module.exports = {
   resolve: {
     extensions: ['.js'],
     alias: {
-      // 'vue$': 'vue/dist/vue.esm.js',
-      'public': path.resolve(__dirname, '.')
-      // 'static': path.resolve(__dirname, './static')
-      // 'ws': path.resolve(__dirname, './src/ws.js')
+      'public': path.resolve(__dirname, './public'),
+      'data': path.resolve(__dirname, './data')
     }
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'index.html'
+      template: './public/index.html'
     })
   ],
   module: {
     rules: [
-      // {
-      //   test: /\.vue$/,
-      //   loader: 'vue-loader',
-      //   options: {
-      //     loaders: {
-      //       // Since sass-loader (weirdly) has SCSS as its default parse mode, we map
-      //       // the "scss" and "sass" values for the lang attribute to the right configs here.
-      //       // other preprocessors should work out of the box, no loader config like this necessary.
-      //       'scss': 'vue-style-loader!css-loader!sass-loader',
-      //       'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
-      //     }
-      //     // other vue-loader options go here
-      //   }
-      // },
       {
         test: /\.js$/,
         loader: 'babel-loader',
@@ -87,14 +71,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true,
-    contentBase: path.resolve('static'),
-    proxy: {
-      '/api': {
-        target: 'http://192.168.0.116:2000',
-        secure: false
-      }
-    }
+    contentBase: path.resolve('data'),
+    noInfo: true
   },
   performance: {
     hints: false

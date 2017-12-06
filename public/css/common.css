@@ -1,0 +1,62 @@
+.display {
+  width: 400px;
+  display: flex;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  flex:  0;
+}
+
+.row {
+  flex: 1;
+}
+
+.dateblocks {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 1px 0;
+}
+
+.dateblocks > div {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 3px;
+  flex: 1;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+  padding: 0 3px;
+  cursor: default;
+}
+
+.winter {
+  background: linear-gradient(145deg, white 15%,#0065F4 45%);
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.spring {
+  background: linear-gradient(145deg, white 15%,#11BF11 45%);
+}
+
+.summer {
+  background: linear-gradient(145deg, white 15%,#FFFF00 45%);
+}
+
+.autumn {
+  background: linear-gradient(145deg, white 15%,#FFA500 45%);
+}
+
+.am {
+  background: linear-gradient(180deg, lightblue 75%,yellow 25%);
+  text-shadow: 1px 1px white;
+}
+
+.pm {
+  background: linear-gradient(to bottom, #0000ff 0%,#a894d3 24%,#a894d3 75%,#a894d3 75%,#ffa500 93%);
+  color: white;
+  text-shadow: 1px 1px black;
+}
