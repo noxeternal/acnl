@@ -1,0 +1,17 @@
+.winter {
+  background: linear-gradient(145deg, white 15%,#0065F4 45%);
+  color: white !important;
+  text-shadow: 1px 1px black !important;
+}
+
+.spring {
+  background: linear-gradient(145deg, white 15%,#11BF11 45%);
+}
+
+.summer {
+  background: linear-gradient(145deg, white 15%,#FFFF00 45%);
+}
+
+.autumn {
+  background: linear-gradient(145deg, white 15%,#FFA500 45%);
+}

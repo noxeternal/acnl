@@ -1,0 +1,5 @@
+<div class="hours blocks">
+  <div ng-repeat="h in hoursdisplay.output() track by $index" ng-class="h.meridian"">
+    {{ h.hour }}
+  </div>
+</div>

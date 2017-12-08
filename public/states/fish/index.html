@@ -1,1 +1,26 @@
-<b>Fish!</b>
+<div class="searchwrap">
+  <div class="display">
+    <div class="icon"><img src="/img/searchicon.png"></div>
+    
+    <div class="name-value row">
+      <div class="row"><input type="text" ng-model="fish.filterValues.name"></div>
+    </div>
+
+    <div class="location-shadow row">
+      <div class="location">
+        <label><input type="radio" value="" ng-model="fish.filterValues.caught" checked>All<br></label>
+        <label><input type="radio" value="1" ng-model="fish.filterValues.caught">Caught<br></label>
+        <label><input type="radio" value="0" ng-model="fish.filterValues.caught">Uncaught</label>
+      </div>
+      <div class="shadow">
+        <label><input type="checkbox" ng-model="fish.filterValues.currentTime" value="true"> Current Fish</label>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div ng-repeat="thisFish in fish.filteredList track by $index">
+  <fish-display fish="thisFish" index="{{ $index + 1 }}"></fish-display>
+</div>

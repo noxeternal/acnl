@@ -1,0 +1,29 @@
+<div class="displaywrap">
+  <div class="display">
+    <div class="icon">
+      <div class="index">{{ index }}</div>
+      <img ng-src="{{ fish.image }}">
+    </div>
+    
+    <div class="name-value row">
+      <div class="checkbox"><input type="checkbox" ng-click="fishdisplay.ls.toggle(fish.name)" ng-checked="fishdisplay.caught(fish.name)" ></div>
+      <div class="name">{{ fish.name }}</div>
+      <div class="value">{{ fish.value | currency:'':0 }}</div>
+    </div>
+
+    <div class="location-shadow row">
+      <div class="locationText">Location:</div>
+      <div class="location">{{ fish.location }}</div>
+      <div class="shadowText">Shadow:</div>
+      <div class="shadow">{{ fish.shadow }}</div>
+    </div>
+
+    <div class="months">
+      <months fish="fish"></months>
+    </div>
+
+    <div class="hours">
+      <hours fish="fish"></hours>
+    </div>
+  </div>
+</div>

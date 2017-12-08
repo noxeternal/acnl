@@ -1,25 +1,108 @@
+body {
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.displaywrap {
+  width: 430px;
+  box-shadow: black 1px 1px 10px 0px;
+  border-radius: 5px;
+  margin: 3px 0 5px 10px;
+  padding: 1px 3px 0px 3px;
+}
+
 .display {
   width: 400px;
-  display: flex;
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 60px auto;
+  grid-template-areas: 
+    "icon name-value"
+    "icon location-shadow"
+    "months months"
+    "hours hours";
 }
 
 .icon {
-  height: 50px;
-  width: 50px;
-  flex:  0;
+  grid-area: icon;
+}
+
+.icon > img {
+  height: 55px;
+  width: 55px;
+  border-radius: 10px;
+  box-shadow: black 1px 1px 2px 0px;
+  margin: 2px;
 }
 
 .row {
+  border-bottom: 1px solid black;
+  margin: 4px 0;
+  padding: 2px 2px 0;
+  display: flex;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+
+.name-value {
+  grid-area: name-value;
+}
+
+.checkbox {
+  flex: 0;
+  margin: 2px 2px 0 0;
+}
+
+.name {
   flex: 1;
 }
 
-.dateblocks {
+.value {
+  flex: 1;
+  text-align: right;
+}
+
+.location-shadow {
+  grid-area: location-shadow;
+}
+
+.locationText {
+  flex: 1; 
+}
+
+.location {
+  flex: 1;
+}
+
+.shadowText {
+  flex: 1;
+  text-align: right;  
+}
+
+.shadow {
+  flex: 1;
+  text-align: right;
+}
+
+.months {
+  grid-area: months;
+  margin-top: 2px;
+}
+
+.hours {
+  grid-area: hours;
+  padding-bottom: 5px;
+}
+
+.blocks {
   display: flex;
-  flex-wrap: nowrap;
   padding: 1px 0;
 }
 
-.dateblocks > div {
+.blocks > div {
   display: inline-block;
   border: 1px solid black;
   border-radius: 3px;
@@ -32,31 +115,7 @@
   cursor: default;
 }
 
-.winter {
-  background: linear-gradient(145deg, white 15%,#0065F4 45%);
+.blank {
+  background: white;
   color: white;
-  text-shadow: 1px 1px black;
-}
-
-.spring {
-  background: linear-gradient(145deg, white 15%,#11BF11 45%);
-}
-
-.summer {
-  background: linear-gradient(145deg, white 15%,#FFFF00 45%);
-}
-
-.autumn {
-  background: linear-gradient(145deg, white 15%,#FFA500 45%);
-}
-
-.am {
-  background: linear-gradient(180deg, lightblue 75%,yellow 25%);
-  text-shadow: 1px 1px white;
-}
-
-.pm {
-  background: linear-gradient(to bottom, #0000ff 0%,#a894d3 24%,#a894d3 75%,#a894d3 75%,#ffa500 93%);
-  color: white;
-  text-shadow: 1px 1px black;
 }

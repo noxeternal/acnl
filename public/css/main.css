@@ -1,4 +1,8 @@
 @import 'normalize.css';
+@import 'common.css';
+@import 'search.css';
 
-@import './../states/fish/index.css';
+@import './../directives/fishdisplay/index.css';
+@import './../directives/months/index.css';
+@import './../directives/hours/index.css';
 

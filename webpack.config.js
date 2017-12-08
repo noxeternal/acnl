@@ -13,7 +13,7 @@ module.exports = {
     extensions: ['.js'],
     alias: {
       'public': path.resolve(__dirname, './public'),
-      'data': path.resolve(__dirname, './data')
+      'static': path.resolve(__dirname, './static')
     }
   },
   plugins: [
@@ -71,7 +71,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve('data'),
+    contentBase: path.resolve('static'),
     noInfo: true
   },
   performance: {

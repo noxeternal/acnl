@@ -1,0 +1,15 @@
+.searchwrap .icon > img {
+  width: 50px;
+  background: none;
+  filter: invert(100%);
+  transform: scaleX(-1);
+}
+
+.searchwrap [type="text"] {
+  width: 100%;
+}
+
+.searchwrap .row {
+  width: 100%;
+  border: none;
+}

@@ -1,0 +1,7 @@
+.am {
+  background: linear-gradient(to bottom, #0000ff 0%,#a894d3 24%,#a894d3 75%,#a894d3 75%,#ffa500 93%);
+}
+
+.pm {
+  background: linear-gradient(180deg, lightblue 75%,yellow 25%);
+}
